@@ -16,9 +16,35 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <img src="./images/logo.svg" alt="Spots Logo" class="header__logo" />
+      </header>
       <main class="content">
-        <section class="profile"></section>
+        <section class="profile">
+          <img
+            src="./images/avatar.jpg"
+            alt="Current Avatar"
+            class="profile__picture"
+          />
+          <div class="profile__column">
+            <h1 class="profile__name">Bessie Coleman</h1>
+            <p class="profile__description">Civil Aviator</p>
+            <button class="profile__edit-button">
+              <img
+                src="./images/edit_pencil.svg"
+                alt="Edit Profile Icon"
+                class="button__image"
+              />Edit Profile
+            </button>
+          </div>
+          <button class="profile__add-button">
+            <img
+              src="./images/button_large.svg"
+              alt="New Post"
+              class="button_add"
+            />
+          </button>
+        </section>
         <section class="cards"></section>
       </main>
       <footer class="footer"></footer>
