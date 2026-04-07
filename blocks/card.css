@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 413px;
+  justify-items: center;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__photo {
+  max-width: 413px;
+  height: 413px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__heart-button {
+  background-image: url(../images/like_icon.svg);
+  width: 23px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  opacity: 40%;
+}
