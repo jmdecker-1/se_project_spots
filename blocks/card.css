@@ -1,25 +1,26 @@
-.card {
-  display: flex;
-  flex-direction: column;
-  max-width: 413px;
-  justify-items: center;
-}
-
 .card__content {
   display: flex;
   justify-content: space-between;
+  padding-top: 12px;
 }
 
 .card__photo {
-  max-width: 413px;
+  width: 100%;
   height: 413px;
   object-fit: cover;
   display: block;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .card__title {
+  max-width: 350px;
   margin: 0;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__heart-button {
@@ -30,4 +31,16 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+@media screen and (max-width: 627px) {
+  .card__photo {
+    width: 100%;
+    height: 288px;
+  }
+
+  .card__title {
+    font-size: 16px;
+    max-width: 250px;
+  }
 }
