@@ -1,23 +1,26 @@
-# Project 3: Spots, a new image-sharing platform
+# Project 3: Spots
 
-## Description of project and functionality
+- Spots is a new image-sharing platform, curated by its users. Designed to be usable on any device, the site adapts to each screen, regardless of size, and allows users to upload, view, and like photos, both theirs and others'.
 
 ## Technologies and Techniques
 
+- HTML
+- CSS
+- Github
+- Figma
+- Adaptive design
+
+## Images
+
+- All images used and some basic formatting can be found here: [Link to the Figma picture repository](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+- Downloaded and formatted images can be found in the images folder here: [Completed Images](https://github.com/jmdecker-1/se_project_spots/tree/main/images)
+
 ## Deployment
+
+- Project and website demo have been deployed on Github Pages.
+- [Link to website on GH Pages](https://jmdecker-1.github.io/se_project_spots/)
 
 ## Project Pitch
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
-
-A description of the project and its functionality
-A description of the technologies and techniques used
-Pictures, GIFs, or screenshots that detail the project features (highly recommended)
-The link to your deployed project on GitHub Pages
-The link to your project pitch video
+- Project Outline, challenges, and thoughts:
+- [Link to Project Pitch](https://drive.google.com/file/d/11tIZPesqqOdeYWS639PzUE6nqUgEtjdL/view?usp=sharing)
