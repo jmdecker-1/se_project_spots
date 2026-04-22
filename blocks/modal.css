@@ -1,0 +1,94 @@
+.modal {
+  visibility: hidden;
+  background-color: #00000080;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.modal_is-opened {
+  visibility: visible;
+}
+
+.modal__container {
+  position: relative;
+  max-width: 630px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 32px 50px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.modal__close-button {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  border: none;
+  width: 22px;
+  height: 22px;
+  opacity: 40%;
+  background-image: url(../images/Line\ 2.svg), url(../images/Line\ 3.svg);
+  background-size: cover;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  margin: 0 0 32px;
+  font-size: 16px;
+}
+
+.modal__input {
+  display: block;
+  margin: 8px 0 0;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 16px 0 16px 12px;
+}
+
+.modal__input::placeholder {
+  color: #2121214d;
+}
+
+.modal__submit {
+  max-width: 156px;
+  padding: 18px 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #212121;
+  color: #fcf5e5;
+}
+
+@media screen and (max-width: 627px) {
+  .modal__title {
+    font-size: 20px;
+    margin: 0 0 24px;
+  }
+
+  .modal__label {
+    margin: 0 0 24px;
+  }
+
+  .modal__submit {
+    max-width: 100%;
+  }
+}
