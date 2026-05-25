@@ -47,12 +47,12 @@ const newPostForm = newPostModal.querySelector(".modal__form");
 const newPostLinkInput = newPostModal.querySelector("#card-image-input");
 const newPostCaptionInput = newPostModal.querySelector("#card-caption-input");
 
-function openModal(modalElement) {
-  modalElement.classList.add("modal_is-opened");
+function openModal(modalItem) {
+  modalItem.classList.add("modal_is-opened");
 }
 
-function closeModal(modalElement) {
-  modalElement.classList.remove("modal_is-opened");
+function closeModal(modalItem) {
+  modalItem.classList.remove("modal_is-opened");
 }
 
 editProfileButton.addEventListener("click", function () {
